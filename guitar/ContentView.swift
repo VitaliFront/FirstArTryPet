@@ -6,16 +6,27 @@
 //
 
 import SwiftUI
+import RealityKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        ARViewContainer().edgesIgnoringSafeArea(.all)
+    }
+}
+
+struct ARViewContainer: UIViewRepresentable {
+    
+    func makeUIView(context: Context) -> some ARView {
+        let arView = ARView(frame: .zero)
+        
+        let guitarAnchor = try! Experience.loadGuitar()
+        
+        arView.scene.anchors.append(guitarAnchor)
+        
+        return arView
+    }
+    func updateUIView(_ uiView: UIViewType, context: Context) {
+        
     }
 }
 

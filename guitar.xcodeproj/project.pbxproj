@@ -11,6 +11,7 @@
 		F89D65912A804D7A0070A24A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89D65902A804D7A0070A24A /* ContentView.swift */; };
 		F89D65932A804D7C0070A24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89D65922A804D7C0070A24A /* Assets.xcassets */; };
 		F89D65962A804D7C0070A24A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89D65952A804D7C0070A24A /* Preview Assets.xcassets */; };
+		F89D659D2A80502F0070A24A /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F89D659C2A80502F0070A24A /* Experience.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F89D65902A804D7A0070A24A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F89D65922A804D7C0070A24A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F89D65952A804D7C0070A24A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F89D659C2A80502F0070A24A /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F89D658E2A804D7A0070A24A /* guitarApp.swift */,
 				F89D65902A804D7A0070A24A /* ContentView.swift */,
+				F89D659C2A80502F0070A24A /* Experience.rcproject */,
 				F89D65922A804D7C0070A24A /* Assets.xcassets */,
 				F89D65942A804D7C0070A24A /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				F89D65912A804D7A0070A24A /* ContentView.swift in Sources */,
 				F89D658F2A804D7A0070A24A /* guitarApp.swift in Sources */,
+				F89D659D2A80502F0070A24A /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +274,13 @@
 				DEVELOPMENT_TEAM = 6T92L726A5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Our App needs acces to your Camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +305,13 @@
 				DEVELOPMENT_TEAM = 6T92L726A5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Our App needs acces to your Camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
